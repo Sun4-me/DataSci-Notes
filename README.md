@@ -17,6 +17,8 @@
 
 - 📕 파이썬 머신러닝 완벽 가이드 / 권철민
 
+- 🔗 https://scikit-learn.org/stable/index.html
+
 - 🔗 https://github.com/wikibook/pymlrev2
 
 - 🔗 https://github.com/ageron/handson-ml2
@@ -31,3 +33,5 @@
 - 📕 데이터분석을 위한 파이썬 철저 입문 / 최은석
 
 - 📕 점프 투 파이썬 / 박응용 
+
+- 🔗 https://datascienceschool.net/intro.html
