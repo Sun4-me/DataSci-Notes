@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 리스팅 -->
+    <!-- ol(ordered list), ul(unordered list)☆ -->
+    <!-- ol : 숫자가 부여되는 리스트 -->
+    <!-- ul : 불릿(점)으로 나열되는 리스트 -->
+    <!-- li 태그를 이용해서 리스팅 -->
+    <ol>
+      <li>항목 A</li>
+      <li>항목 B</li>
+      <li>항목 C</li>
+    </ol>
+
+    <ul>
+      <li>항목 A</li>
+      <li>항목 B</li>
+      <li>항목 C</li>
+    </ul>
+
+    <!-- dl(Description List),
+         dt(Description Term),
+         dd(Description Details) -->
+    <!-- 항목들에 대한 설명을 작성 -->
+    <dl>
+      <dt>아메리카노</dt>
+      <dl>케냐 어쩌고 원두를 저쩌고 로스팅해서~~</dl>
+      <dt>카페라떼</dt>
+      <dl>고급 두유를 사용한 고소한 어쩌고~~</dl>
+    </dl>
+
+    <!-- p(Pragraph) : 문단을 설정 -->
+    <p>여기는문단입니다. 어쩌고 저쩌고~~~~</p>
+
+    <!-- hr(Horizontal Rule) : 수평선 긋기 -->
+    <hr />
+
+    <!-- pre(Preformatted Text) : -->
+    <pre>
+a = 1
+b=2
+print(a+b)
+    </pre>
+    <!-- 여기까지 작성한 모든 문자 태그들은 block 속성 태그 -->
+    <!-- block 태그 : 컨텐츠의 너비에 상관 없이 가로 전체를 차지한다. -->
+    <!-- inline 태그 : 컨텐츠의 너비만큼만 차지한다. -->
+
+    <!-- a(Anchor) : 다른 url로 연결할 수 있는 하이퍼링크 생성 -->
+    <!-- href에 이동할 url을 적어준다. -->
+    <a href="https://www.naver.com" target="_blank">네이버로 이동</a>
+    <a href="https://www.google.com">구글로 이동</a>
+
+    <!-- 
+        strong : 특정 범위의 글자를 굵게 표시
+        i(italic) : 특정 범위의 글자를 기울여서 표시
+     -->
+    <strong>강조된 표시(굵게)</strong>
+    <i>글씨를 기울여서 표시</i>
+
+    <!-- span : 어떤 범위를 지정하기 위해 사용 -->
+    <!-- css 또는 JavaScript를 활용해 특정 부분의 스타일이나 이벤트를 부여 -->
+
+    <!-- 블록 태그 내에 인라인 태그 작성 OK -->
+    <p>
+      개인물품 등의 도난 및 교육장비의 손상이 발생하지 않도록
+      <span style="color: red">유의</span>해 주시기 바랍니다.
+    </p>
+    <!-- 인라인 태그 내에 인라인 태그 작성 OK -->
+    <a href="#"> <span style="color: red">하이하이</span>바이바이 </a>
+
+    <!-- 인라인 태그 내에 블록 태그는 BAD -->
+    <a href="#">
+      <p>블록태그</p>
+    </a>
+  </body>
+</html>
